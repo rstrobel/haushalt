@@ -8,7 +8,8 @@
 #
 #########################################################
 
-
+def user_mgmt_interface():
+    # filter, show, create and update user data, delete
 
 
 #########################################################
@@ -18,6 +19,17 @@
 #########################################################
 
 
+def create_user ():
+
+def remove_user ():
+    # only the ones with 0 operations
+
+def modify_user ():
+
+def
+
+def list_all_users ():
+
 
 #########################################################
 #
@@ -25,4 +37,10 @@
 #
 #########################################################
 
-def insert_user (l_user_record):
+def insert_new_user_record (l_user_record):
+
+def update_user_record (l_user_record):
+
+def delete_user_record (l_user_record):
+
+def retrieve_user_record (usr_name):
