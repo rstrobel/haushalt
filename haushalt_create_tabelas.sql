@@ -68,6 +68,7 @@ CREATE TABLE haushalt.tb_operations
   opr_acc_id integer NOT NULL REFERENCES haushalt.tb_accounts
 );
 
-CREATE INDEX haushalt.ix_operations_01
-   ON haushalt.tb_operations USING btree (opr_date ASC NULLS LAST)
-  TABLESPACE tb_data;
+CREATE INDEX ix_operations_01
+  ON haushalt.tb_operations USING btree (opr_date ASC NULLS LAST)
+  TABLESPACE tb_data
+;
