@@ -1,3 +1,0 @@
-#
-# haushalt_functions.py
-#

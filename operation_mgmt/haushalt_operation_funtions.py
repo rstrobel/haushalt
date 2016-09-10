@@ -1,8 +1,18 @@
+#
+# haushalt_functions.py
+#
+
 #########################################################
 #
 # Presentation Layer
 #
 #########################################################
+
+def input_operation_record():
+    # Collect the inputs of a operation. return the input in the list l_operation_record
+
+def input_operation_report_parameters():
+    # Collect the parameters
 
 
 #########################################################
@@ -23,28 +33,14 @@ def retrieve_operations(l_acc_id, dt_initial, dt_final):
 
 def list_acc_operations(acc_id):
 
-def list_balance(acc_id):
 
 #########################################################
 #
 # Data Access Layer
 #
 #########################################################
-
 def insert_operation (l_operation_record):
 
 def delete_operation (opr_id):
 
 def update_operation (opr_id, l_operation_record):
-
-def insert_account (l_account_record):
-
-def delete_account (l_account_record):
-
-def update_account (l_account_record):
-
-def insert_user (l_user_record):
-
-def update_balance (acc_id, money_value):
-
-#def update_account_payment_value (acc_id, money_value):
