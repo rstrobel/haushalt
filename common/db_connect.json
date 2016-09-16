@@ -1,0 +1,16 @@
+{
+    "prd": [
+        "db_prd",
+        "haushalt",
+        "rastafari.net",
+        "5432",
+        "dagget03"
+    ],
+    "dev": [
+        "db_dsv",
+        "haushalt",
+        "localhost",
+        "5432",
+        "dagget03"
+    ]
+}

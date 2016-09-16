@@ -1,50 +1,30 @@
-#########################################################
-#
-# Presentation Layer
-#
-#########################################################
+#!/usr/bin/env python3
+from user_mgmt.lib_user_dl import *
+from common.lib_common_db import *
+from common.lib_common_log import *
+import psycopg2
+
+# get parameter prd or dev
 
 
-#########################################################
-#
-# Business Layer
-#
-#########################################################
 
-def process_operation(l_operation_record):
-    # Receive the input of an operation and process it
 
-def transfer_money(acc_id_origin, acc_id_destination, money_value):
-    # Transfer money from one account to another
+print ("Executing main code...")
 
-def retrieve_operations(l_acc_id, dt_initial, dt_final):
-    # create a dictionary with all the operations informed in l_acc_id
-    # and in the period informed
+################# Initialization tasks... #################
 
-def list_acc_operations(acc_id):
+# Set global variables
+running_env = 'dev'
+log_level = 'DEBUG'     # 0 = DEBUG,  1 = INFO, 2 = WARNING
+version="1.0"
 
-def list_balance(acc_id):
+# Open log file
+open_log (log_level, running_env, version)
 
-#########################################################
-#
-# Data Access Layer
-#
-#########################################################
+# Connect to the database
+db_con= stablish_db_connection (running_env)
 
-def insert_operation (l_operation_record):
 
-def delete_operation (opr_id):
-
-def update_operation (opr_id, l_operation_record):
-
-def insert_account (l_account_record):
-
-def delete_account (l_account_record):
-
-def update_account (l_account_record):
-
-def insert_user (l_user_record):
-
-def update_balance (acc_id, money_value):
-
-#def update_account_payment_value (acc_id, money_value):
+# open_log(log_level, running_env,version)
+# logging.info ('some message');
+# logging.debug ('some debug message')

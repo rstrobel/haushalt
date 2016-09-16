@@ -8,5 +8,5 @@ CREATE TABLE haushalt.tb_users
   usr_status char(1) NOT NULL
 );
 
-INSERT INTO haushalt.tb_users VALUES (DEFAULT, 'Ronald', 1, 'A';
+INSERT INTO haushalt.tb_users VALUES (DEFAULT, 'Ronald', 1, 'A');
 INSERT INTO haushalt.tb_users VALUES (DEFAULT, 'Simone', 1, 'A');
