@@ -1,11 +1,701 @@
-09/16/2016 06:49:41 PM: INFO: Starting Haushalt Kontrolle version 1.0
-09/16/2016 06:49:41 PM: DEBUG: Using dev environment
-09/16/2016 06:49:41 PM: CRITICAL: 2016-09-16 18:49:41.8994571001 [common.lib_common_db] : Error conecting to the database.
-09/16/2016 06:49:41 PM: CRITICAL: could not connect to server: Connection refused
-	Is the server running on host "localhost" (::1) and accepting
-	TCP/IP connections on port 5432?
-could not connect to server: Connection refused
-	Is the server running on host "localhost" (127.0.0.1) and accepting
-	TCP/IP connections on port 5432?
+09/17/2016 12:43:45 AM: INFO: -------- Starting Haushalt Kontrolle version --------
+09/17/2016 12:43:45 AM: INFO: 2016-09-17 00:43:45.3065119000 [__main__] : Running environent: prd
+09/17/2016 12:43:45 AM: INFO: 2016-09-17 00:43:45.3066589001 [__main__] : Log severity level: DEBUG
+09/17/2016 12:43:45 AM: DEBUG: 2016-09-17 00:43:45.3068449002 [__main__] : Going to connect to the database...
+09/17/2016 12:43:45 AM: DEBUG: 2016-09-17 00:43:45.4587729003 [__main__] : Connected!
+09/17/2016 12:45:34 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:45:34 AM: INFO: 2016-09-17 00:45:34.4888799000 [__main__] : Version: 0.01
+09/17/2016 12:45:34 AM: INFO: 2016-09-17 00:45:34.4891089002 [__main__] : Running environent: prd
+09/17/2016 12:45:34 AM: INFO: 2016-09-17 00:45:34.4892399003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:45:34 AM: DEBUG: 2016-09-17 00:45:34.4893999004 [__main__] : Going to connect to the database...
+09/17/2016 12:45:34 AM: DEBUG: 2016-09-17 00:45:34.6152109005 [__main__] : Connected!
+09/17/2016 12:47:44 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:47:44 AM: INFO: 9000 [__main__] : Version: 0.01
+09/17/2016 12:47:44 AM: INFO: 9002 [__main__] : Running environent: prd
+09/17/2016 12:47:44 AM: INFO: 9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:47:44 AM: DEBUG: 9004 [__main__] : Going to connect to the database...
+09/17/2016 12:47:44 AM: DEBUG: 9005 [__main__] : Connected!
+09/17/2016 12:48:30 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:48:30 AM: INFO: 9000	[__main__] : Version: 0.01
+09/17/2016 12:48:30 AM: INFO: 9002	[__main__] : Running environent: prd
+09/17/2016 12:48:30 AM: INFO: 9003	[__main__] : Log severity level: DEBUG
+09/17/2016 12:48:30 AM: DEBUG: 9004	[__main__] : Going to connect to the database...
+09/17/2016 12:48:30 AM: DEBUG: 9005	[__main__] : Connected!
+09/17/2016 12:49:28 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:49:28 AM: INFO: 9000	[__main__] : Version: 0.01
+09/17/2016 12:49:28 AM: INFO: 9002	[__main__] : Running environent: prd
+09/17/2016 12:49:28 AM: INFO: 9003	[__main__] : Log severity level: DEBUG
+09/17/2016 12:49:28 AM: DEBUG: 9004	[__main__] : Going to connect to the database...
+09/17/2016 12:49:29 AM: DEBUG: 9005	[__main__] : Connected!
+09/17/2016 12:49:30 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:49:30 AM: INFO: 9000	[__main__] : Version: 0.01
+09/17/2016 12:49:30 AM: INFO: 9002	[__main__] : Running environent: prd
+09/17/2016 12:49:30 AM: INFO: 9003	[__main__] : Log severity level: DEBUG
+09/17/2016 12:49:30 AM: DEBUG: 9004	[__main__] : Going to connect to the database...
+09/17/2016 12:49:30 AM: DEBUG: 9005	[__main__] : Connected!
+09/17/2016 12:49:32 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:49:32 AM: INFO: 9000	[__main__] : Version: 0.01
+09/17/2016 12:49:32 AM: INFO: 9002	[__main__] : Running environent: prd
+09/17/2016 12:49:32 AM: INFO: 9003	[__main__] : Log severity level: DEBUG
+09/17/2016 12:49:32 AM: DEBUG: 9004	[__main__] : Going to connect to the database...
+09/17/2016 12:49:32 AM: DEBUG: 9005	[__main__] : Connected!
+09/17/2016 12:50:13 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:50:13 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:50:13 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:50:13 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:50:13 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:50:13 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:50:15 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:50:15 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:50:15 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:50:15 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:50:15 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:50:15 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:50:17 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:50:17 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:50:17 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:50:17 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:50:17 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:50:17 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:50:59 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:50:59 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:50:59 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:50:59 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:50:59 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:50:59 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:51:51 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:51:51 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:51:51 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:51:51 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:51:51 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:51:51 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:54:37 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:54:37 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:54:37 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:54:37 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:54:37 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:54:37 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:54:37 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:54:40 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:54:40 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:54:40 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:54:40 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:54:40 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:54:40 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:54:40 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:55:07 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:55:07 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:55:07 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:55:07 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:55:07 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:55:07 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:55:07 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:55:14 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:55:14 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:55:14 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:55:14 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:55:14 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:55:14 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:55:14 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:55:18 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:55:18 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:55:18 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:55:18 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:55:18 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:55:18 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:55:18 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:55:41 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:55:41 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:55:41 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:55:41 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:55:41 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:55:41 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:55:41 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:55:44 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:55:44 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:55:44 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:55:44 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:55:44 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:55:44 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:55:44 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:55:59 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:55:59 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:55:59 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:55:59 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:55:59 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:55:59 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:55:59 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:56:14 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:56:14 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:56:14 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:56:14 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:56:14 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:56:14 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:56:14 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:56:22 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:56:22 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:56:22 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:56:22 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:56:22 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:56:22 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:56:22 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:56:27 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:56:27 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:56:27 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:56:27 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:56:27 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:56:27 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:56:27 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:56:35 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:56:35 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:56:35 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:56:35 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:56:35 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:56:35 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:56:35 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:56:43 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:56:43 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:56:43 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:56:43 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:56:43 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:56:43 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:56:43 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:57:52 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:57:52 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:57:52 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:57:52 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:57:52 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:57:52 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:57:52 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 12:58:02 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 12:58:02 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 12:58:02 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 12:58:02 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 12:58:02 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 12:58:02 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 12:58:02 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 09:02:18 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 09:02:18 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 09:02:18 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 09:02:18 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 09:02:18 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 09:02:18 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 09:02:18 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 09:02:27 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 09:02:27 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 09:02:27 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 09:02:27 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 09:02:27 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 09:02:27 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 09:02:27 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 09:02:53 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 09:02:53 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 09:02:53 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 09:02:53 AM: INFO: 	9003 [__main__] : Log severity level: DEBUG
+09/17/2016 09:02:53 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 09:02:53 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 09:02:53 AM: DEBUG: 	9005 [__main__] : Connected!
+09/17/2016 09:17:04 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/17/2016 09:17:04 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/17/2016 09:17:04 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/17/2016 09:17:04 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/17/2016 09:17:04 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/17/2016 09:17:04 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/17/2016 09:17:04 AM: DEBUG: 	9005 [__main__] : Connected!
+09/18/2016 09:59:51 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 09:59:51 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 09:59:51 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 09:59:51 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/18/2016 09:59:51 AM: CRITICAL: 	1004 [common.lib_common_db] : Error while testing db connection!
+09/18/2016 09:59:58 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 09:59:58 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 09:59:58 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 09:59:58 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/18/2016 09:59:58 AM: CRITICAL: 	1004 [common.lib_common_db] : Error while testing db connection!
+09/18/2016 10:01:25 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:01:25 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:01:25 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:01:25 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:01:25 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/18/2016 10:01:25 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:01:25 AM: DEBUG: 	9005 [__main__] : Connected!
+09/18/2016 10:01:25 AM: CRITICAL: 	1004 [common.lib_common_db] : Error while testing db connection!
+09/18/2016 10:01:25 AM: DEBUG: relation "haushalt.haushalt_db" does not exist
+LINE 1: SELECT name FROM haushalt.haushalt_db;
+                         ^
 
-09/16/2016 06:49:41 PM: INFO: dbname='db_dsv' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 10:01:50 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:01:50 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:01:50 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 10:01:50 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:01:50 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/18/2016 10:01:50 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 10:01:50 AM: CRITICAL: 	1001 [common.lib_common_db] : Error conecting to the database.
+09/18/2016 10:01:50 AM: CRITICAL: FATAL:  database "db_dev" does not exist
+
+09/18/2016 10:01:50 AM: INFO: dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 10:02:03 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:02:03 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:02:03 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:02:03 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:02:03 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/18/2016 10:02:03 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:02:03 AM: DEBUG: 	9005 [__main__] : Connected!
+09/18/2016 10:02:03 AM: CRITICAL: 	1004 [common.lib_common_db] : Error while testing db connection!
+09/18/2016 10:02:03 AM: DEBUG: relation "haushalt.haushalt_db" does not exist
+LINE 1: SELECT name FROM haushalt.haushalt_db;
+                         ^
+
+09/18/2016 10:05:03 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:05:03 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:05:03 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:05:03 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:05:03 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/18/2016 10:05:03 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:05:03 AM: DEBUG: 	9005 [__main__] : Connected!
+09/18/2016 10:05:03 AM: CRITICAL: 	1004 [common.lib_common_db] : Error while testing db connection!
+09/18/2016 10:05:03 AM: DEBUG: relation "haushalt.haushalt_db" does not exist
+LINE 1: SELECT name FROM haushalt.haushalt_db;
+                         ^
+
+09/18/2016 10:08:46 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:08:46 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:08:46 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:08:46 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:08:46 AM: DEBUG: 	9004 [__main__] : Going to connect to the database...
+09/18/2016 10:08:46 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:08:46 AM: DEBUG: 	9005 [__main__] : Connected!
+09/18/2016 10:14:55 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:14:55 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:14:55 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:14:55 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:14:55 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:14:55 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 10:14:55 AM: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 10:15:12 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:15:12 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:15:12 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:15:12 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/18/2016 10:15:19 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:15:19 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:15:19 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:15:19 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:15:19 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:15:19 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 10:15:19 AM: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 10:15:34 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:15:34 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:15:34 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 10:15:34 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:15:34 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 10:15:34 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 10:15:34 AM: CRITICAL: 	1001 [common.lib_common_db] : Error conecting to the database.
+09/18/2016 10:15:34 AM: CRITICAL: FATAL:  database "db_dev" does not exist
+
+09/18/2016 10:15:34 AM: INFO: dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 10:15:48 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:15:48 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:15:48 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 10:15:48 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:15:48 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 10:15:48 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 10:15:48 AM: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 10:15:54 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 10:15:54 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 10:15:54 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 10:15:54 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 10:15:54 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 10:15:54 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 10:15:54 AM: CRITICAL: 	1001 [common.lib_common_db] : Error conecting to the database.
+09/18/2016 10:15:54 AM: CRITICAL: FATAL:  database "db_dev" does not exist
+
+09/18/2016 10:15:54 AM: INFO: dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 11:20:36 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 11:20:36 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:20:36 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 11:20:36 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:20:36 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 11:20:36 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 11:20:36 AM: CRITICAL: 	1001 [common.lib_common_db] : Error conecting to the database.
+09/18/2016 11:20:36 AM: CRITICAL: FATAL:  database "db_dev" does not exist
+
+09/18/2016 11:20:36 AM: INFO: dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 11:25:48 AM: INFO: -------- Starting Haushalt Kontrolle --------
+09/18/2016 11:25:48 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:25:48 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 11:25:48 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:25:48 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 11:25:48 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 11:25:48 AM: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 11:29:44 AM: INFO: 
+-------- Starting Haushalt Kontrolle --------
+09/18/2016 11:29:44 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:29:44 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 11:29:44 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:29:44 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 11:29:44 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 11:29:44 AM: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 11:30:59 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:30:59 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:30:59 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 11:30:59 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:30:59 AM: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 11:30:59 AM: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 11:30:59 AM: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 11:33:09 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:33:09 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:33:09 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 11:33:09 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:33:30 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:33:30 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:33:30 AM: INFO: 	9002 [__main__] : Running environent: dsv
+09/18/2016 11:33:30 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:33:51 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:33:51 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:33:51 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 11:33:51 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:34:47 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:34:47 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:34:47 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 11:34:47 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/18/2016 11:35:02 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:35:02 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:35:02 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 11:35:02 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:38:58 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:38:58 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:38:58 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 11:38:58 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:44:20 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:44:20 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:44:20 AM: INFO: 	9002 [__main__] : Running environent: 
+09/18/2016 11:44:20 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/18/2016 11:44:58 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:44:58 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:44:58 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 11:44:58 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:45:13 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:45:13 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:45:13 AM: INFO: 	9002 [__main__] : Running environent: 
+09/18/2016 11:45:13 AM: INFO: 	9003 [__main__] : Log severity level: info
+09/18/2016 11:47:42 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:47:42 AM: INFO: 	9000 [__main__] : Version: 0.01
+09/18/2016 11:47:42 AM: INFO: 	9002 [__main__] : Running environent: prd
+09/18/2016 11:47:42 AM: INFO: 	9003 [__main__] : Log severity level: debug
+09/18/2016 11:49:14 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:49:14 AM: INFO: 	9000 [common.lib_common_log] : Version: 0.01
+09/18/2016 11:50:22 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:50:22 AM: INFO: 	9000 [common.lib_common_log] : Version: 0.01
+09/18/2016 11:50:22 AM: INFO: 	9002 [common.lib_common_log] : Running environent: prd
+09/18/2016 11:50:22 AM: INFO: 	9003 [common.lib_common_log] : Log severity level: debug
+09/18/2016 11:50:53 AM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 11:50:53 AM: INFO: 	9000 [common.lib_common_log] : Version: 0.01
+09/18/2016 11:50:53 AM: INFO: 	9002 [common.lib_common_log] : Running environent: prd
+09/18/2016 11:50:53 AM: INFO: 	9003 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:04:39 PM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:04:39 PM: INFO: 	9000 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:04:39 PM: INFO: 	9002 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:04:39 PM: INFO: 	9003 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:07:21 PM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:07:21 PM: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:07:21 PM: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:07:21 PM: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:07:21 PM: DEBUG: 	1203 [common.lib_common_log] : log_format
+09/18/2016 12:07:28 PM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:07:28 PM: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:07:28 PM: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:07:28 PM: INFO: 	1201 [common.lib_common_log] : Log severity level: info
+09/18/2016 12:07:30 PM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:07:30 PM: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:07:30 PM: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:07:30 PM: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:07:30 PM: DEBUG: 	1203 [common.lib_common_log] : log_format
+09/18/2016 12:08:02 PM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:08:02 PM: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:08:02 PM: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:08:02 PM: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:08:02 PM: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:11:09 PM: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:11:09 PM: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:11:09 PM: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:11:09 PM: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:11:09 PM: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:17:55: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:17:55: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:17:55: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:17:55: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:17:55: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:20:54: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:20:54: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:20:54: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:20:54: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:20:54: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:21:45: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:21:45: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:21:45: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:21:45: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:21:45: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:21:45: DEBUG: 	1009 [common.lib_common_db] : DB parameters are: None
+09/18/2016 12:30:48: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:30:48: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:30:48: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:30:48: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:30:48: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:34:40: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:34:40: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:34:40: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:34:40: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:34:40: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:34:40: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:34:40: DEBUG: DB parameters is: db_prd
+09/18/2016 12:34:40: DEBUG: DB parameters is: haushalt
+09/18/2016 12:34:40: DEBUG: DB parameters is: rastafari.net
+09/18/2016 12:34:40: DEBUG: DB parameters is: 5432
+09/18/2016 12:34:40: DEBUG: DB parameters is: dagget03
+09/18/2016 12:34:40: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:34:40: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:35:40: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:35:40: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:35:40: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:35:40: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:35:40: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:35:40: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:35:40: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:35:40: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:38:19: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:38:19: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:38:19: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:38:19: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:38:19: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:38:19: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:38:19: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:38:19: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:38:19: INFO: 	1005 [common.lib_common_db] : DB test connection ok: Production Haushalt Kontrole DB
+09/18/2016 12:38:19: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 12:39:06: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:39:06: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:39:06: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:39:06: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:39:06: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:39:06: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:39:06: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:39:06: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:39:06: INFO: 	1005 [common.lib_common_db] : DB test connection ok. DB returned: Production Haushalt Kontrole DB
+09/18/2016 12:39:06: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 12:39:49: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:39:49: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:39:49: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:39:49: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:39:49: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:39:49: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:39:49: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:39:49: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:39:49: INFO: 	1005 [common.lib_common_db] : DB test connection ok. DB returned: "Production Haushalt Kontrole DB
+09/18/2016 12:40:58: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:40:58: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:40:58: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:40:58: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:40:58: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:40:58: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:40:58: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:40:58: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:40:58: INFO: 	1005 [common.lib_common_db] : DB test connection ok. DB returned: "Production Haushalt Kontrole DB
+09/18/2016 12:41:47: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:41:47: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:41:47: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:41:47: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:41:47: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:41:47: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:41:47: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:41:47: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:41:47: INFO: 	1005 [common.lib_common_db] : DB test connection ok. DB returned: "Production Haushalt Kontrole DB
+09/18/2016 12:42:28: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:42:28: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:42:28: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:42:28: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:42:28: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:42:28: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:42:28: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:42:28: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:42:28: INFO: 	1005 [common.lib_common_db] : DB test connection ok. DB returned: "Production Haushalt Kontrole DB
+09/18/2016 12:50:22: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:50:22: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:50:22: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:50:22: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:50:22: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:50:22: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:50:22: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:50:22: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:51:45: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:51:45: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:51:45: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:51:45: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:51:45: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:51:45: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:51:45: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:51:45: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:52:28: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:52:28: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:52:28: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:52:28: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:52:28: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:52:28: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:52:28: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:52:28: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:53:06: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:53:06: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:53:06: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:53:06: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:53:06: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:53:06: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:53:06: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:53:06: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:55:21: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:55:21: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:55:21: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:55:21: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:55:21: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:55:21: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:55:21: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:55:21: DEBUG: 	1007 [common.lib_common_db] : Connected!
+09/18/2016 12:55:21: INFO: 	1005 [common.lib_common_db] : DB connection ok. DB returned: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 12:55:21: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 12:59:06: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 12:59:06: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 12:59:06: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 12:59:06: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 12:59:06: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 12:59:06: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 12:59:06: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 12:59:06: DEBUG: 	1005 [common.lib_common_db] : DB connection ok. DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 12:59:06: DEBUG: 	1007 [common.lib_common_db] : Database is Production Haushalt Kontrole DB
+09/18/2016 12:59:06: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:00:47: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:00:47: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:00:47: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:00:47: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:00:47: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:00:47: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:00:47: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 13:00:47: DEBUG: 	1005 [common.lib_common_db] : DB connection ok. DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:00:47: INFO: 	1007 [common.lib_common_db] : Connected to the database: Production Haushalt Kontrole DB
+09/18/2016 13:00:47: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:01:10: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:01:10: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:01:10: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:01:10: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:01:10: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:01:10: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:01:10: DEBUG: 	1006 [common.lib_common_db] : Going to connect to the database...
+09/18/2016 13:01:10: INFO: 	1007 [common.lib_common_db] : Connected to the database: Production Haushalt Kontrole DB
+09/18/2016 13:01:10: DEBUG: 	1005 [common.lib_common_db] : DB connection ok. DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:01:10: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:02:19: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:02:19: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:02:19: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:02:19: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:02:19: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:02:19: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:02:19: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:02:19: INFO: 	1007 [common.lib_common_db] : Connected! Database is: Production Haushalt Kontrole DB
+09/18/2016 13:02:19: DEBUG: 	1005 [common.lib_common_db] : DB connection ok. DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:02:19: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:02:46: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:02:46: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:02:46: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:02:46: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:02:46: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:02:46: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:02:46: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:02:46: INFO: 	1007 [common.lib_common_db] : Connected! Database is: Production Haushalt Kontrole DB
+09/18/2016 13:02:46: DEBUG: 	1005 [common.lib_common_db] : DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:02:46: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:03:26: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:03:26: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:03:26: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:03:26: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:03:26: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:05:35: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:05:35: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:05:35: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:05:35: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:05:35: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:05:35: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:05:35: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:05:35: INFO: 	1007 [common.lib_common_db] : Connected! Database is: Production Haushalt Kontrole DB
+09/18/2016 13:05:35: DEBUG: 	1005 [common.lib_common_db] : DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:05:35: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:07:00: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:07:00: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:07:00: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:07:00: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:07:00: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:17:36: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:17:36: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:17:36: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:17:36: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:17:36: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:17:36: CRITICAL: 	1000 [common.lib_common_db] : Error getting db connect parameters.
+09/18/2016 13:17:36: CRITICAL: [Errno 2] No such file or directory: 'common/db_connect.json'
+09/18/2016 13:18:15: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:18:15: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:18:15: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:18:15: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:18:15: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:18:15: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:18:15: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:18:15: INFO: 	1007 [common.lib_common_db] : Connected! Database is: Production Haushalt Kontrole DB
+09/18/2016 13:18:15: DEBUG: 	1005 [common.lib_common_db] : DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:18:15: DEBUG: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:18:29: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:18:29: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:18:29: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:18:29: INFO: 	1201 [common.lib_common_log] : Log severity level: info
+09/18/2016 13:18:29: INFO: 	1007 [common.lib_common_db] : Connected! Database is: Production Haushalt Kontrole DB
+09/18/2016 13:19:06: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:19:06: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:19:06: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:19:06: INFO: 	1201 [common.lib_common_log] : Log severity level: info
+09/18/2016 13:19:06: INFO: 	1007 [common.lib_common_db] : Connected to DB. Database is: Production Haushalt Kontrole DB
+09/18/2016 13:19:55: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:19:55: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:19:55: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:19:55: INFO: 	1201 [common.lib_common_log] : Log severity level: info
+09/18/2016 13:19:55: INFO: 	1007 [common.lib_common_db] : Connected to DB. Database is: Production Haushalt Kontrole DB
+09/18/2016 13:19:55: INFO: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:20:19: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:20:19: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:20:19: INFO: 	1201 [common.lib_common_log] : Running environment: dsv
+09/18/2016 13:20:19: INFO: 	1201 [common.lib_common_log] : Log severity level: info
+09/18/2016 13:20:19: INFO: 	1007 [common.lib_common_db] : Connected to DB. Database is: Development Haushalt Kontrole DB
+09/18/2016 13:20:19: INFO: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:20:33: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:20:33: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:20:33: INFO: 	1201 [common.lib_common_log] : Running environment: dsv
+09/18/2016 13:20:33: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:20:33: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:20:33: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 13:20:33: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:20:33: INFO: 	1007 [common.lib_common_db] : Connected to DB. Database is: Development Haushalt Kontrole DB
+09/18/2016 13:20:33: DEBUG: 	1005 [common.lib_common_db] : DB version is: PostgreSQL 9.5.4 on x86_64-apple-darwin, compiled by i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00), 64-bit
+09/18/2016 13:20:33: INFO: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:20:48: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:20:48: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:20:48: INFO: 	1201 [common.lib_common_log] : Running environment: prd
+09/18/2016 13:20:48: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:20:48: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:20:48: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_prd' user='haushalt' host='rastafari.net' port='5432' password='dagget03'
+09/18/2016 13:20:48: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:20:48: INFO: 	1007 [common.lib_common_db] : Connected to DB. Database is: Production Haushalt Kontrole DB
+09/18/2016 13:20:48: DEBUG: 	1005 [common.lib_common_db] : DB version is: PostgreSQL 9.4.9 on armv7l-unknown-linux-gnueabihf, compiled by gcc (Raspbian 4.9.2-10) 4.9.2, 32-bit
+09/18/2016 13:20:48: INFO: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!
+09/18/2016 13:20:54: INFO: -------------- Starting Haushalt Kontrolle --------------
+09/18/2016 13:20:54: INFO: 	1200 [common.lib_common_log] : Version: 0.01
+09/18/2016 13:20:54: INFO: 	1201 [common.lib_common_log] : Running environment: dsv
+09/18/2016 13:20:54: INFO: 	1201 [common.lib_common_log] : Log severity level: debug
+09/18/2016 13:20:54: DEBUG: 	1203 [common.lib_common_log] : Log_format:%(asctime)s: %(levelname)s: %(message)s
+09/18/2016 13:20:54: DEBUG: 	1003 [common.lib_common_db] :  Db_connect= dbname='db_dev' user='haushalt' host='localhost' port='5432' password='dagget03'
+09/18/2016 13:20:54: DEBUG: 	1006 [common.lib_common_db] : Connecting to the database...
+09/18/2016 13:20:54: INFO: 	1007 [common.lib_common_db] : Connected to DB. Database is: Development Haushalt Kontrole DB
+09/18/2016 13:20:54: DEBUG: 	1005 [common.lib_common_db] : DB version is: PostgreSQL 9.5.4 on x86_64-apple-darwin, compiled by i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00), 64-bit
+09/18/2016 13:20:54: INFO: 	1008 [common.lib_common_db] : Connection to database closed. Goodbye!

@@ -1,3 +1,4 @@
+__version__ = "0.01"
 DROP TABLE haushalt.tb_users;
 
 CREATE TABLE haushalt.tb_users

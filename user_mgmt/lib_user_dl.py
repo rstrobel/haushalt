@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
+__version__ = "0.01"
 #########################################################
 #
 # Data Access Layer
 #
 #########################################################
-
+from user_mgmt.lib_user_dl import *
+from common.lib_common_db import *
+from common.lib_common_log import *
+from common.lib_common_par import *
 import psycopg2
 import sys
+import getopt
+import json
+import logging
+import datetime
+import datetime
 
 
 def insert_user_record (con, l_user_record):

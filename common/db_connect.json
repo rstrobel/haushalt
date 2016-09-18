@@ -6,8 +6,8 @@
         "5432",
         "dagget03"
     ],
-    "dev": [
-        "db_dsv",
+    "dsv": [
+        "db_dev",
         "haushalt",
         "localhost",
         "5432",
