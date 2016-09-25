@@ -1,85 +1,101 @@
 #!/usr/bin/env python3
 __version__ = "0.01"
 
-#from user_mgmt.lib_user_dl import *
-from common.lib_common_log import *
-from common.lib_common_par import *
 import psycopg2
 import sys
 import json
 import logging
 import datetime
 
+import config
+from common.lib_common_log import *
 
 
-# load the database connection data from file
-def get_db_connect_parameters (runnig_env):
+# Connect to the database
+def db_connect(running_env):
+    connect= stablish_db_connection (get_db_connect_parameters (running_env) )
+    return connect
+
+# open a connection with the choosed database
+def stablish_db_connection (db_par):
+    log_entry ('DEBUG', 1004, __name__, ' db_connect= '+ str(db_par))
+    try:
+        log_entry ('DEBUG', 1005, __name__, 'Connecting to the database...')
+        conn= psycopg2.connect(db_par)
+    except:
+        log_entry ('CRITICAL', 1006, __name__, 'Error conecting to the database.')
+        logging.critical(detail)
+        logging.info(db_par)
+        sys.exit(1)
+    return conn
+
+
+# load the database configuration data from file
+def get_db_connect_parameters (running_env):
     try:
         with open('common/db_connect.json', 'r') as conf_file:
-            dbconn = json.load(conf_file)
+            db_configs = json.load(conf_file)
     except OSError as err:
         log_entry ('CRITICAL', 1000, __name__, 'Error getting db connect parameters.')
         logging.critical (err)
         sys.exit(1)
-    db_par= dbconn[runnig_env]
+    db_conf= db_configs[running_env]
+    db_name= db_conf[0]
+    db_user= db_conf[1]
+    db_host= db_conf[2]
+    db_port= db_conf[3]
+    db_pass= db_conf[4]
+    db_par=  "dbname='" + db_name + "' user='"+ db_user +"' host='" + db_host + "' "
+    db_par+= "port='" + db_port + "' password='" + db_pass + "'"
     return db_par
 
 
-# Test db connection
-def test_db_connection (con):
+def exec_query (db, query):
     try:
-        cur = con.cursor()
-        dml= 'SELECT version()'
-        cur.execute(dml)
-        db_version= cur.fetchone()
-        db_version= str(db_version[0])
-        print ("db_version: " + db_version)
-
-        dml= 'SELECT name FROM haushalt.haushalt_db;'
-        cur.execute(dml)
-        result= cur.fetchone()
-        result= str(result[0])
-        print ("result: " + result)
-
-        con.commit()
+        cur= db.cursor()
+        cur.execute(query)
+        l_record= cur.fetchall()
+        db.commit()
     except psycopg2.DatabaseError as detail:
-        if con:
-            con.rollback()
-        log_entry ('CRITICAL', 1001, __name__, 'Error while testing db connection!')
+        if db:
+            db.rollback()
+        log_entry ('CRITICAL', 2002, __name__, 'Error executing query')
         logging.debug (detail)
+        logging.debug (query)
         sys.exit(1)
-    log_entry('INFO', 1002, __name__, 'Connected to DB. Database is: ' + result)
-    log_entry('DEBUG', 1003, __name__, 'DB version is: ' + db_version)
-
-# open a connection with the database
-def stablish_db_connection (running_env):
-    db_par= get_db_connect_parameters(running_env)
-    db_name= db_par[0]
-    db_user= db_par[1]
-    db_host= db_par[2]
-    db_port= db_par[3]
-    db_pass= db_par[4]
-    pg_db_connector=  "dbname='" + db_name + "' user='"+ db_user +"' host='" + db_host + "' "
-    pg_db_connector+= "port='" + db_port + "' password='" + db_pass + "'"
-    log_entry ('DEBUG', 1004, __name__, ' Db_connect= '+ pg_db_connector)
-    try:
-        log_entry ('DEBUG', 1005, __name__, 'Connecting to the database...')
-        con = psycopg2.connect(pg_db_connector)
-    except psycopg2.OperationalError as detail:
-        log_entry ('CRITICAL', 1006, __name__, 'Error conecting to the database.')
-        logging.critical(detail)
-        logging.info(pg_db_connector)
-        sys.exit(1)
-    # Test connection to the database
-    test_db_connection (con)
-    return con
-
+    log_entry('DEBUG', 2003, __name__, 'Query executed succesfully')
+    logging.debug (query)
+    return l_record
 
 # close connection with the database
-def close_db_connection (con):
+def close_db_connection (db):
     try:
-        con.close()
+        db.close()
     except psycopg2.OperationalError as err:
         log_entry ('CRITICAL', 1007, __name__, 'Error closing connection to the database.')
         logging.debug (err)
-    log_entry ('INFO', 1008, __name__, 'Connection to database closed. Goodbye!')
+    log_entry ('DEBUG', 1008, __name__, 'Connection to database closed.')
+
+# con= stablish_db_connection(db_par)
+# print( "conectou...")
+# l_record= exec_db_query(con, query)
+# print( "rodou a query..")
+# close_db_connection(con)
+# print( "desconectou")
+# return l_record
+
+# Test db connection
+def test_db_connection (db):
+    dml= 'SELECT name FROM haushalt.haushalt_db;'
+    l_record= exec_query (db, dml)
+    db_version= str(l_record[0])
+
+    dml= 'SELECT version() FROM haushalt.haushalt_db;'
+    l_record= exec_query (db, dml)
+    version= str(l_record[0])
+
+    log_entry('INFO', 1002, __name__, 'Connected to Database: ' + db_version)
+    log_entry('DEBUG', 1003, __name__, 'DB version is: ' + version)
+
+# Module initialization
+#config.db= db_connect(running_env)

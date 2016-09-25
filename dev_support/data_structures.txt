@@ -1,0 +1,12 @@
+
+Variable              Type            Content
+--------------------- -----------     --------------------------------------------------------------
+l_user_record         list            user record (0= usr_id, 1= usr_name, 2= usr_role, 3= usr_status)
+v_user_id             var             user id
+v_user                var             user user_name
+l_users               list            list of user_names or user_ids
+ll_users              list of lists   list of l_user_record
+tl_users              tuple of lists  tuples of l_user_record
+
+result                var             any single generic data query result
+l_result              list            any sequence generic data query result

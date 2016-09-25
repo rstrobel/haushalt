@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
 __version__ = "0.01"
 
-#from user_mgmt.lib_user_dl import *
-from common.lib_common_db import *
-from common.lib_common_log import *
-import psycopg2
 import sys
-import json
-import logging
-import datetime
+import config
 
-def get_command_line_parameters (argv):
+def process_command_line_parameters (argv):
     def show_help_msg():
         print (" ")
         print ("Usage: python3 haushalt.py --dsv|--prd    [--debug]")
@@ -28,12 +22,13 @@ def get_command_line_parameters (argv):
     running_env_already_set= False
     log_level= 'info'
     log_level_already_set= False
-    qt_args= len(sys.argv)
+    qt_args= len(argv)
+    print ('qt args: ' + str(qt_args))
     msg_help='Type: "python haushalt.py --help" for more help.'
 
-    if (qt_args > 1):
+    if (qt_args > 0):
         # p1
-        p1= str(argv[1]).lower()
+        p1= str(argv[0]).lower()
         if (p1 == "--help"):
             show_help_msg()
             sys.exit(0)
@@ -54,8 +49,8 @@ def get_command_line_parameters (argv):
             print (msg_help)
             sys.exit(1)
         # p2
-        if (qt_args > 2 ):
-            p2= str(argv[2]).lower()
+        if (qt_args > 1 ):
+            p2= str(argv[1]).lower()
             if (p2 == '--debug'):
                 if (log_level_already_set):
                     print ("Missing environment parameter ( --dsv or --prd)!")
@@ -84,9 +79,8 @@ def get_command_line_parameters (argv):
         print ("Invalid parameters!")
         print (msg_help)
         sys.exit(1)
-        
+
     # Bonus: check python version (haushalt only works in python 3)
-    print ("python version= " + str(sys.version_info))
     if (sys.version_info.major < 3):
         print ('Haushalt Kontrolle is only compatible with Python 3 and over. Use "python3 haushalt <parameters>"')
         print  (msg_help)
