@@ -11,7 +11,7 @@
 def input_operation_record():
     # Collect the inputs of a operation. return the input in the list l_operation_record
 
-def input_operation_report_parameters():
+def input_operaxtion_report_parameters():
     # Collect the parameters
 
 
