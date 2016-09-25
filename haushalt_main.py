@@ -1,50 +1,39 @@
-#########################################################
-#
-# Presentation Layer
-#
-#########################################################
+#!/usr/bin/env python3
+__version__ = "0.01"
+__name__ = "__main__"
+
+import sys
+
+import config
+from common.lib_common_par import *
+from common.lib_common_log import *
+from common.lib_common_db import *
+
+from user_mgmt.lib_user import *
 
 
-#########################################################
-#
-# Business Layer
-#
-#########################################################
 
-def process_operation(l_operation_record):
-    # Receive the input of an operation and process it
 
-def transfer_money(acc_id_origin, acc_id_destination, money_value):
-    # Transfer money from one account to another
+def main(argv):
+    print ("executing main. argv is:")
+    ################# Initialization tasks... #################
 
-def retrieve_operations(l_acc_id, dt_initial, dt_final):
-    # create a dictionary with all the operations informed in l_acc_id
-    # and in the period informed
+    # Get command line parameters
+    running_env, log_level = process_command_line_parameters(argv)
+    print ("running env " + running_env)
+    print ("log_level: " + log_level)
+    # Start logging
+    open_log (log_level, running_env)
 
-def list_acc_operations(acc_id):
+    # Connect to database
+    config.db= db_connect(running_env)
+    print ("testing db...")
+    test_db_connection(config.db)
 
-def list_balance(acc_id):
+    # Create new user
+    #interface_create_user()
+    #interface_show_users()
+    interface_alter_user()
 
-#########################################################
-#
-# Data Access Layer
-#
-#########################################################
-
-def insert_operation (l_operation_record):
-
-def delete_operation (opr_id):
-
-def update_operation (opr_id, l_operation_record):
-
-def insert_account (l_account_record):
-
-def delete_account (l_account_record):
-
-def update_account (l_account_record):
-
-def insert_user (l_user_record):
-
-def update_balance (acc_id, money_value):
-
-#def update_account_payment_value (acc_id, money_value):
+if __name__ == '__main__':
+    main(sys.argv[1:])
